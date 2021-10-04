@@ -20,6 +20,6 @@ git add .
 git commit -m "first commit"
 git push -u origin main
 Si la información del repositorio actualizada no está en tu ordenador, debemos clonar el repositorio para poder seguir trabajando con el en cualquier ordenador, para ello debemos usar el siguiente comando dentro del directorio del repositorio en nuestra pantalla de comandos con "cd"
-git clone https://github.com/HillertJimenezlucas/PROJECTO_01.git
+git clone https://github.com/HillertJimenezlucas/PROJECTO_01.git.
 
 
