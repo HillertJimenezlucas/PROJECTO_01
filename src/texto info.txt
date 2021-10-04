@@ -1,0 +1,23 @@
+Primero creamos la carpeta donde trabajaremos con nuestro primer repositorio en mi caso se llamará PROJECTO_01
+Dentro de esta carpeta crearemos otras dos carpetas: 
+"doc" donde introduciremos después el pdf explicativo
+"src" donde estará el archivo txt 
+Además también crearemos el README.md manualmente o con la serie de comandos que nos sale al crear un nuevo repositorio en la página web de github
+A continuación abrimos nuestra pantalla de comandos en mi caso usare Windows PowerShell y abrimos con el comando "cd" el directorio de nuestra carpeta del repositorio
+Una vez dentro del directorio ejecutaremos la serie de comando de git para trabajar con el repositorio:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HillertJimenezlucas/PROJECTO_01.git
+git push -u origin main
+Si es la primera vez que entras el repositorio, te aparecera que necesitas identificarte para continuar trabajando, para ello usaremos los siguientes comandos:
+git config --global user.email "Tu@correo.com"
+git config --global user.name "TuNombre"
+Una vez rellenado estos datos, hacemos el push y nos identificaremos en el navegador con nuestra cuenta de github, y ya podremos seguir con el projecto.
+Para actualizar la información en el repositorio desde nuestra pantalla de comandos usamos estos comandos:
+git add .
+git commit -m "first commit"
+git push -u origin main
+
+
